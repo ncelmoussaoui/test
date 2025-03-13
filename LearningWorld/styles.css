@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  margin-bottom: 100px;
+  background-color: #3d4a59;
+  color: white;
+  border-radius: 0 0 70px 70px;
+}
+header h1 {
+  margin-bottom: 35px;
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.parent li a {
+  color: white;
+  text-decoration: none;
+
+  margin-top: 6px;
+  display: inline-block;
+}
+.parent li a:hover {
+  border-bottom: 2px solid red;
+  font-size: 18px;
+}
+.mode {
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+li {
+  list-style-type: none;
+}
+h1 {
+  text-align: center;
+  padding: 10px 0;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3d4a59;
+  color: white;
+  border-radius: 17px;
+  padding: 15px;
+}
+.my-img {
+  border-radius: 50%;
+  width: 150px;
+
+  border-right: 2px solid #eff8a0; /* Corrected color format */
+  border-left: 2px solid #eff8a0; /* Corrected color format and casing */
+  border-bottom: 2px solid #e52e71;
+  border-top: 2px solid #e52e71;
+}
+.para {
+  font-size: 20px;
+}
+.left-section h3 {
+  font-size: 26;
+  margin: 20px 0;
+}
+.left-section p {
+  font-size: 26;
+  margin: 20px 0;
+}
+article h5 {
+  font-size: 39px;
+  font-weight: 500;
+  font-family: "Sacramento", cursive;
+  margin-top: 10px;
+}
+.facebook,
+.youtube {
+  background-color: royalblue;
+  color: #fff;
+  margin: 10px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.youtube {
+  background-color: rgb(235, 124, 124);
+}
+section {
+  margin-bottom: 100px; /* Abstand unter der Sektion */
+  box-shadow: 30px 10px 30px rgb(233, 232, 232);
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto; /* Diese Zeile hinzugefügt für zentrierte Ausrichtung */
+  border-radius: 13px;
+  padding: 45px 0;
+}
+
+section + section {
+  margin-top: 50px; /* Abstand über der nächsten Sektion */
+}
+
+.flex {
+  display: flex;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-section,
+.right-section {
+  width: 49%;
+  text-align: center;
+  margin-top: 60px;
+}
+footer {
+  margin-top: 50px; /* Setze den gewünschten Wert */
+  margin-bottom: 100px;
+  text-align: center;
+}
+.design {
+  background-color: #3d4a59; /* Korrektur der Hintergrundfarbe */
+  color: #fff; /* Korrektur; keine Leerzeile */
+  padding: 15px;
+  text-align: center;
+  border-top-left-radius: 35px; /* Korrektur der Eigenschaft und Beispielwert */
+  border-top-right-radius: 35px; /* Korrektur der Eigenschaft und Beispielwert */
+}
+.follow {
+  box-shadow: 5px 30px rgba(0, 0, 0, 0.25); /* Korrektur der Box-Schatten-Eigenschaft */
+  border-radius: 10px;
+  padding: 16px 0; /* Korrektur der Eigenschaft */
+  text-align: center;
+  margin: 0 auto 10px; /* Korrektur des Margin-Werts */
+  border-top: 6px solid; /* Farbe hinzufügen, falls gewünscht */
+  opacity: 0.9;
+  width: 99%; /* Korrektur der Breitenangabe */
+}
+.follow a {
+  border: 1px solid; /* Korrektur der Rahmenangabe */
+  border-radius: 4px;
+  padding: 4px 10px; /* Korrektur des Padding-Werts */
+  text-decoration: none;
+}
+.follow a:hover {
+  padding: 5px 12px;
+  background-color: rgba(16, 73, 243); /* Korrektur der Hintergrundfarbe */
+  color: #fff; /* Festlegung der Textfarbe */
+}
